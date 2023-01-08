@@ -1,0 +1,120 @@
+@import "./common";
+
+
+#heading{
+
+    .logo{
+        
+        padding: 7px;
+    }
+
+    .menu{
+            text-align: center;
+            margin-top: 20px;
+            
+
+          #navbarNav{
+            a{
+                color: #fff;
+                font-size: 20px;
+                font-weight: 400;
+                margin: 0 10px 0 10px;
+                
+            }
+            a:hover{
+                color: #FF1640;
+                border-bottom: 1px solid #FF7777;
+                
+            }
+            .login{
+                font-size: 22px;
+                font-weight: 400;
+                border-bottom: none;
+                background-color: #FF7777;
+                width: 69px;
+                height: 37px;
+                line-height: 18px;
+                border-radius: 10px;
+                
+            }
+            .login:hover{
+                color: #fff;
+            }
+          }
+}
+}
+
+#intro{
+    margin: 50px 0 30px 0;
+
+    .imagee{
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .text{
+        text-align: right;
+        margin-top: 80px;
+
+        h3{
+            color: #fff;
+            font-size: 72px;
+            font-weight: 800;
+        }
+        h6{
+            color: #fff;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        a{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 800;
+            width: 165px;
+            height: 57px;
+            background-color: #FF1640;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 10px;
+        } 
+        a:hover{
+            border: 2px solid #fff;
+            font-size: 26px;
+        }
+    }
+}
+
+#slider{
+
+    margin: 80px 0 50px 0;
+
+    .slide-card{
+            position: relative;
+        
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        img:hover{
+            border: 2px solid #fff;
+        }
+        .overlay{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+            h6{
+                color: #fff;
+                font-size: 36px;
+                font-weight: 800;
+                
+            }
+        }
+    }
+}
